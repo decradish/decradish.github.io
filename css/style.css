@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{font:12px "微软雅黑", "宋体",Arial, Helvetica, sans-serif;}
+a{color: #fff;text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.none{display: none;}
+*{font-size: 16px;ont-family: "优黑","微软雅黑", "宋体",Arial, Helvetica, sans-serif;}
+
+body{padding-bottom: 360px;}
+header{
+	height: 300px;
+	position: relative;
+	background: #fff;}
+	header img{
+		height: 100%;
+		display: block;
+		margin: 0 auto;}
+	.avatar{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		border-radius: 50%;
+		margin: 0 0 -50px -50px;
+		text-indent: -99999px;
+		box-shadow: 0 0 9px #333;
+		background: url(../img/avatar.png) no-repeat center 0;
+		background-size: cover;}
+		.avatar:hover{
+			width: 132px;
+			height: 132px;
+			border-radius: 23px;
+			transition: all .3s;
+			margin: 0 0 -66px -66px;}
+.contact{
+	padding: 69px 0 20px;
+	background: #666;
+	text-align: center;
+	color: #fff;
+	line-height: 26px;}
+	h1{
+		font-size: 26px;
+		text-align: center;
+		padding-bottom: 10px;}
+.knowledge{
+	text-align: center;
+	padding: 20px 0;
+	line-height: 26px;}
+	.knowledge > *{
+		display: inline-block;
+		background: #000;
+		color: #fff;
+		padding: 0 6px;
+		margin: 3px 0;
+		border-radius: 6px;}
+	.knowledge > span{background: #999;}
+.double_clo{overflow: hidden;}
+.work_experience{
+	color: #fff;
+	background: #666;
+	overflow: hidden;
+	line-height: 26px;}
+	.work_experience a{/*color: #91ffbe;*/}
+	.right_clo{
+		width: 50%;
+		padding-bottom: 900px;
+		float: right;
+		margin: 0 0 -900px -1px;
+		border-left: 1px dashed #fff;}
+	.left_clo{
+		width: 50%;
+		padding-bottom: 900px;
+		margin-bottom: -900px;
+		float: left;
+		text-align: right;}
+		.core{padding: 20px 10px;}
+			.core > strong{
+				background: #fff;
+				color: #666;
+				border-radius: 6px;
+				padding: 2px 3px;
+				margin: 0 6px;}
+			.box{
+				border-radius: 6px;
+				border: 2px solid #fff;
+				padding: 6px;
+				margin: 20px 0 0 50%;}
+				.right_clo .box{margin: 20px 50% 0 0;}
+				.box > a{display: block;}
+				.box > span{
+					font-size: 12px;
+					padding: 0 3px;
+					border-radius: 6px;
+					border: 1px solid #fff;}
+				.box p{
+					font-size: 12px;
+					line-height: 14px;
+					padding: 6px 0;}
+.sns{color: #666;line-height: 26px;}
+	.sns a{color: #666;}
+	.sns .right_clo{border-color: #666;}
+	.sns .core > strong{
+		background: #666;
+		color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
